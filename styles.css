@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+
+body {
+    background-color: lavenderblush;
+    margin: 0;
+    font-family: 'Cabin', sans-serif;
+}
+
+
+.header {
+    background-color:lavenderblush;
+    color: white;
+    height: 100px;
+    border-bottom: 5px solid #FF905C;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: 200px auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 950px;
+}
+
+.logo {
+    margin-top: 35px;
+    font-size: 1.4rem;
+}
+
+.links {
+    margin-top: 40px;
+    font-size: 0.75rem;
+    text-align: right;
+    color: #4B4E61;
+}
+
+.links a {
+    color: #4B4E61;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.name {
+    color:black;
+}
+
+.banner {
+    background-color: #e2a9b0;
+    padding: 20px;
+    text-align: center;
+}
+
+.banner img {
+    max-width: 80%;
+    height: auto;
+    width: auto;
+    margin: auto;
+    display: block;
+}
+
+.aboutme {
+    background-color:lavenderblush;
+    display: grid;
+    font-size: 22px;
+    font-family: serif;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    grid-template-columns: 50% 50%;
+    height: 250px;
+    padding: 40px;
+    border-bottom: solid 15px #e2a9b0;
+}
+
+.aboutme img {
+    max-width: 250px;
+    width: 80%;
+    
+}
+.slideshow-container {
+    position: relative;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 20px;
+    margin-top: -25px;
+    color:#e2a9b0;
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.7s ease;
+    user-select: none;
+}
+.prev {
+    margin-right: 10px;
+    right: 90%;
+}
+.next {
+    margin-left: 10px;
+    left: 90%;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1s;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+.portfolio {
+    text-align: center;
+    font-family: serif;
+    font-size: 30px;
+    background-color: white;
+}
+
+#contact {
+font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+    background-color: mistyrose;
+}
+
+#contactmetext {
+    font-family: 'Cabin',sans-serif;
+    font-size: 25px;
+}
+
+input[type=text], select, textarea {
+  width:100%; 
+  padding: 15px;  
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px; 
+  resize: vertical;
+}
+
+input [type=submit] {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input [type=submit]{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    padding: 12px 20px;
+}
+
+.container {
+    border-radius: 5px;
+    background-color:mistyrose;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom:4%;
+    font-family: 'Cabin', sans-serif;
+}
+
+.contact {
+    text-align: center;
+    color: white;
+    font-size: .9rem;
+}
+
+.contact a {
+    padding: 0 10px;
+}
+
+#footer {
+    color: black;
+    background-color: white;
+}
+#socialmediaicons {
+    background-color:#e2a9b0;
+    font-family: 'Cabin', sans-serif;
+    color: white;
+    padding-bottom: 20px;
+    font-size: 20px;
+    
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+   opacity:0.6;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+    background:#bd428c;
+    color: white;
+}
+
+.fa-pinterest {
+    background-color: #e00022;
+    color: white;
+    
+}
+
+@media screen and (max-width: 600px) {
+   
+    .body{
+        background-color: white; 
+    }
+    
+    .links { 
+        margin-top: 10px;
+        text-align: center;
+        }
+    .aboutme {
+    font-size: 15px;
+    }
+}
+.responsive {
+    width: 80%;
+    height: auto;
+}
+
+
+
+
+
+
